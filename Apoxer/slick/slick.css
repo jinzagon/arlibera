@@ -57,8 +57,11 @@
 
     display: block;
 	left: -42%;
+    height: 471px;
 
 }
+
+
 .slick-track:before,
 .slick-track:after
 {

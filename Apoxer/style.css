@@ -8,10 +8,10 @@
     width: 200px;
     height: 250px;
     margin: 1.1%;
-    outline: none
+    outline: none;
 }
 
-.game-list .game img{
+.game-list .game .va{
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -19,11 +19,14 @@
     transition: all linear .4s;
     -webkit-box-shadow: 1px 0px 19px 8px rgba(0,0,0,0.38); 
 box-shadow: 1px 0px 19px 8px rgba(0,0,0,0.38);
-outline: none
+outline: none;
 }
 
+.va{
+    z-index:999
+}
 
-.game-list .slick-center img{
+.game-list .slick-center .va{
     transform: scale(1.15);
     padding:4px;
     border-style: solid;
@@ -34,4 +37,75 @@ outline: none
     
 }
 
+.game-list .slick-center div{
+    display:block;
+    padding-top: 20%;
+    width: 100vh;
+}
 
+.game-list .slick-center main{
+display:block;    
+}
+
+.game-list .game-info{
+    display:none;
+}
+
+.game-list .center :hover {
+padding-top:200px;
+}
+
+/*.slider{
+    z-index:999;
+}*/
+
+
+/* ////////////////  This is for background */
+
+.main{
+    z-index:1;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+  }
+   
+  main {
+    position: absolute;
+    animation: fade-in-move-down 0.7s;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+      min-width: 100%;
+  
+  }
+  
+  main > img{
+        min-height: 100vh;
+      min-width: 100%;
+  }
+  
+  @keyframes fade-in-move-down {
+    0% {
+      opacity: 0;
+      transform: translateX(3rem);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes out {
+    0% {
+      opacity: 1;
+      transform: translateX(3rem);
+    } 
+    100% {
+      opacity: 0;
+      transform: translateX(0);
+    }
+  }
+  
+  
