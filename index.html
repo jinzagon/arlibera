@@ -2,13 +2,18 @@
 <html lang="fr" >
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,text/html, charset=utf-8" />
-		<meta name="Description" CONTENT="Startup marocaine de design et de dÃ©veloppement.">
+		<meta name="Description" CONTENT="Startup marocaine de design et de développement web.">
+		 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preload stylesheet" as="style" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/png" href="https://arlibera.ma/FAV.png">
-		<title>Arlibera - Design &amp; DÃ©veloppement</title>
-	</head></html>
+		
+		<link rel="icon" type="image/png" href="images/FAV.png">
+		<title>Arlibera - Design &amp; Développement</title>
+	</head>
 	
 	<style>
 
@@ -91,10 +96,30 @@ font-size: 17px;
 }}
 
 
+
+
+.slide-up {
+
+}
+
+@keyframes slide-up {
+  from {
+  bottom: -110px;
+  left: -110px;
+  }
+
+  to {
+  bottom: 0;
+  left: 0;
+  }
+}
+
+
 </style>
 
 	
-	<body class="is-preload">
+	<body class="animate__animated animate__fadeIn" style="background-color: #c02432;">
+	<!--is-preload-->
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper" style="">
@@ -105,19 +130,19 @@ font-size: 17px;
 						<!-- Panel (Banner) -->
 							<section class="panel banner right">
 								<div class="content color0 span-75">
-								<div style="z-index:5000;"><a href="#first" style="border-bottom: 0px;"><div class="scroll-indicator fa fa-chevron-right"></div></a></div>
-								<div class="desc" class="animate__animated animate__fadeInDown" style="display: block;">	
+								<div class="scroll-animation" style="z-index:5000;"><a href="#first" style="border-bottom: 0px;"><div class="scroll-indicator fa fa-chevron-right"></div></a></div>
+								<div class="desc animate__animated animate__fadeInDown animate__delay-2s" style="display: block;">	
 									<p>Startup marocaine</p>
-									<p>de design et dÃ©veloppement</p>
+									<p>de design et développement</p>
 									
 								</div>
-								<img class="svg" src="https://arlibera.ma/LIIT.svg" style="display: inline;">
-								<img class="slide-up" src="https://arlibera.ma/aaw.png">
-								<img class="khdam" src="https://arlibera.ma/KHDAM.svg">
-								<p class="titre">arlibera</p>
+								<img class="svg" src="images/logo.svg" style="display: inline;">
+								<img class="slide-up" src="images/aaw.png">
+								<img class="khdam" src="images/KHDAM.svg">
+								<p class="titre animate__animated animate__fadeInUp">arlibera</p>
 									<!--<h1 class="major">Hello, my name<br />
 									is Ethereal</h1>
-									<p>This is <strong>Ethereal</strong>, a free site template by AJ for <a href="https://html5up.net">HTML5 UP</a>. ItÃ¢â‚¬â„¢s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)</p>
+									<p>This is <strong>Ethereal</strong>, a free site template by AJ for <a href="https://html5up.net">HTML5 UP</a>. Itâ€™s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)</p>
 									<ul class="actions">
 										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right" style="margin-left:500px;">Next</a></li>
 									</ul>-->
@@ -134,11 +159,11 @@ font-size: 17px;
 									<h2 class="majo" style="color: #f2da75;">Arlibera, c'est quoi ?</h2>
 									
 									 
-									 <p class="we_are">Nous sommes une startup marocaine autodidacte situÃ©e Ã  MeknÃ¨s de rÃ©alisation graphique et de dÃ©veloppement des applications web.
-									<br><br>Nous sommes obsÃ©dÃ©s par le partage de notre amour du domaine d'infographie et de dÃ©veloppement avec chaque individu motivÃ© pour montrer Ã  quel point un projet fort, visuellement cohÃ©rent et dotÃ© de personnalitÃ© et de qualitÃ© peut avoir un impact.
-									<br><br>Arlibera se spÃ©cialise dans la crÃ©ation, la conception et le lancement des solutions web en addition de tout ce qui a rapport avec lâ€™infographie et le design, Ã  savoir les publicitÃ©s, les animations, les banniÃ¨res, les logos, etc â€¦
-									<br><br>Nous comprenons bien quâ€™il yâ€™a plus que la qualitÃ© dans le travail. Pour nous, les dÃ©tails font la perfection, et la perfection n'est pas un dÃ©tail. 
-									<br><br><b>Laissez-nous vous aider Ã  y arriver.</b>
+									 <p class="we_are">Nous sommes une startup marocaine autodidacte située à Meknès de réalisation graphique et de développement des applications web.
+									<br><br>Nous sommes obsédés par le partage de notre amour du domaine d'infographie et de développement avec chaque individu motivé pour montrer à quel point un projet fort, visuellement cohérent et doté de personnalité et de qualité peut avoir un impact.
+									<br><br>Arlibera se spécialise dans la création, la conception et le lancement des solutions web en addition de tout ce qui a rapport avec l’infographie et le design, à savoir les publicités, les animations, les bannières, les logos, etc …
+									<br><br>Nous comprenons bien qu’il y’a plus que la qualité dans le travail. Pour nous, les détails font la perfection, et la perfection n'est pas un détail. 
+									<br><br><b>Laissez-nous vous aider à y arriver.</b>
 									<br><br><img class="yzd" src="./images/fondateur.png"></p>
 								</div>
 								<div class="image" data-position="25% 5%" style="display: flex; position: relative;width: 30%;">
@@ -154,9 +179,9 @@ font-size: 17px;
 
 									
 									<!-- Button trigger modal -->
-<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
   Launch demo modal
-</button>-->
+</button>
 
 <!-- Modal -->
 					<div class="modal fade" id="apoxer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="z-index:9000000;">
@@ -169,7 +194,7 @@ font-size: 17px;
 						
 						  <div class="modal-body pop" style="color:black;">
 							
-						<p style=" font-size: 14px;  margin-bottom: 12px; font-weight: 700;  color: rgba(0, 0, 0, 0.35);"> PROJETS > DÃ‰VELOPPEMENT</p><p>
+						<p style=" font-size: 14px;  margin-bottom: 12px; font-weight: 700;  color: rgba(0, 0, 0, 0.35);"> PROJETS > DÉVELOPPEMENT</p><p>
 							<hgroup>
 								<h1 style="font-family:'League Spartan'; font-size:50px; font-weight:800;color: black;">Apoxer</h1>
 							</hgroup>
@@ -177,19 +202,19 @@ font-size: 17px;
 							
 							
 							<div class="row" style="font-family: 'Raleway', sans-serif;color: rgba(0, 0, 0, 0.48); font-size:14px; font-weight: 600;">
-							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">CLIENT</span>â€” â€” â€”</p></div>
+							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">CLIENT</span>— — —</p></div>
 							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">DATE</span>9 Sep 2020</p></div>
-							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">SERVICE</span>DÃ©veloppement, Application</p></div>
+							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">SERVICE</span>Développement, Application</p></div>
 							</div>
 							
 							
 							<section>
 							
-							<img src="https://i.imgur.com/jrrVln5.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-								<p>APOXER est un lanceur de logiciels spÃ©cialement conÃ§u pour le lancement des jeux vidÃ©o. Cette application a Ã©tÃ© crÃ©Ã© sous ElectronJS, et se caractÃ©rise par une interface trÃ¨s moderne qui a Ã©tÃ© inspirÃ©e par lâ€™une des crÃ©ations de Pawel Durczok. Les transitions et les animations permettent de rÃ©aliser un rendu trÃ¨s agrÃ©able et facile dâ€™utilisation, le tout codÃ© en Javascript.</p>				
-							<img src="https://i.imgur.com/xRWF5Mu.png" style="margin-bottom: 40px;margin-top: 20px;">
-								<p>L'UI principal devrait montrer les "Covers" des jeux installÃ©s, chacun d'entre eux accompagnÃ© par son image d'arriÃ¨re-plan, le tout animÃ© avec une transition simple et minimale.</p>
-							<p>Les objectifs principaux imposÃ©s: <ul><li>Pas d'encombrement.<li>VisibilitÃ© des informations de loin.<li>Un affichage du plus grand nombre dâ€™Ã©lÃ©ments possible sans charger lâ€™interface.</ul></p>							
+							<img src="images/jrrVln5.jpg" style="margin-bottom: 20px;margin-top: 20px;">
+								<p>APOXER est un lanceur de logiciels spécialement conçu pour le lancement des jeux vidéo. Cette application a été créé sous ElectronJS, et se caractérise par une interface très moderne qui a été inspirée par l’une des créations de Pawel Durczok. Les transitions et les animations permettent de réaliser un rendu très agréable et facile d’utilisation, le tout codé en Javascript.</p>				
+							<img src="images/xRWF5Mu.png" style="margin-bottom: 40px;margin-top: 20px;">
+								<p>L'UI principal devrait montrer les "Covers" des jeux installés, chacun d'entre eux accompagné par son image d'arrière-plan, le tout animé avec une transition simple et minimale.</p>
+							<p>Les objectifs principaux imposés: <ul><li>Pas d'encombrement.<li>Visibilité des informations de loin.<li>Un affichage du plus grand nombre d’éléments possible sans charger l’interface.</ul></p>							
 							</section>
 							<img src="https://i.imgur.com/tRfpN1i.jpg"  style="margin-bottom: 20px;margin-top: 20px;">
 							<footer>
@@ -219,7 +244,7 @@ font-size: 17px;
 						
 						  <div class="modal-body pop" style="color:black;">
 							
-						<p style=" font-size: 14px;  margin-bottom: 12px; font-weight: 700;  color: rgba(0, 0, 0, 0.35);"> PROJETS > DÃ‰VELOPPEMENT</p><p>
+						<p style=" font-size: 14px;  margin-bottom: 12px; font-weight: 700;  color: rgba(0, 0, 0, 0.35);"> PROJETS > DÉVELOPPEMENT</p><p>
 							<hgroup>
 								<h1 style="font-family:'League Spartan'; font-size:50px; font-weight:800;color: black;">LeCRM.ma</h1>
 							</hgroup>
@@ -236,27 +261,27 @@ font-size: 17px;
 							<section>
 							
 							<img src="images/hanout.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-								<p>LeCRM.ma est une plateforme de gestion commerciale pour les petites et moyennes entreprises (PME). Ayant une bonne relation avec son fondateur, on a eu le privilÃ¨ge de travailler le cÃ´tÃ© backend du site, le cÃ´tÃ© frontend ainsi que celui du marketing du projet. Ses directions et lâ€™alignement de sa vision avec la nÃ´tre nous a permis de rÃ©aliser un rendu dont nous en sommes tous fiers.</p>
-							<h2 style="color:black;">DÃ©veloppement web</h2>
+								<p>LeCRM.ma est une plateforme de gestion commerciale pour les petites et moyennes entreprises (PME). Ayant une bonne relation avec son fondateur, on a eu le privilège de travailler le côté backend du site, le côté frontend ainsi que celui du marketing du projet. Ses directions et l’alignement de sa vision avec la nôtre nous a permis de réaliser un rendu dont nous en sommes tous fiers.</p>
+							<h2 style="color:black;">Développement web</h2>
 							<img src="images/quali.jpg" style="margin-bottom: 20px;margin-top: 20px;">	 
 								 
-								<p>Pour gÃ©rer les clients et leurs abonnements, on a dÃ©veloppÃ© une <b style="color: black;font-weight: 900;">application web</b> sous Laravel sÃ©parÃ©e de lâ€™application du produit lui-mÃªme qui est liÃ©e Ã  une base de donnÃ©es avec toutes les informations de la clientÃ¨le. Cette base a aussi servi Ã  stocker les numÃ©ros de tÃ©lÃ©phones des clients potentiels depuis une Landing page quâ€™on a prÃ©alablement mis en place. </p>
+								<p>Pour gérer les clients et leurs abonnements, on a développé une <b style="color: black;font-weight: 900;">application web</b> sous Laravel séparée de l’application du produit lui-même qui est liée à une base de données avec toutes les informations de la clientèle. Cette base a aussi servi à stocker les numéros de téléphones des clients potentiels depuis une Landing page qu’on a préalablement mis en place. </p>
 							<h2 style="color:black;">Design</h2>
 							<img src="images/drugri.jpg" style="margin-bottom: 20px;margin-top: 20px;">	
 							
-							<p>Le fondateur, a sa demande, a voulu garder le logo initial du projet ainsi que les couleurs principales. Chose qui nous servi comme base de la structure gÃ©nÃ©rale du design.</p>
+							<p>Le fondateur, a sa demande, a voulu garder le logo initial du projet ainsi que les couleurs principales. Chose qui nous servi comme base de la structure générale du design.</p>
 							<img src="images/maroc.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-							<p>Toutes les illustrations utilisÃ©es dans le projet ont Ã©tÃ© spÃ©cialement conÃ§ues pour ce dernier, en ajoutant une touche marocaine pour donner au visiteur une impression locale de son pays.
+							<p>Toutes les illustrations utilisées dans le projet ont été spécialement conçues pour ce dernier, en ajoutant une touche marocaine pour donner au visiteur une impression locale de son pays.
 							</p></p>
 								
 							<h2 style="color:black;">Marketing Digital</h2>
 							<img src="images/4.5.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-							<p>Qui dit trafic dit <b style="color: black;font-weight: 900;">publicitÃ©</b>. Pour ce qui est du marketing, on a conÃ§u des crÃ©ations sous trois types de supports : <b style="color: black;font-weight: 900;">Landing page, Facebook Ads ainsi quâ€™une vidÃ©o animÃ© explicative.</b> 
+							<p>Qui dit trafic dit <b style="color: black;font-weight: 900;">publicité</b>. Pour ce qui est du marketing, on a conçu des créations sous trois types de supports : <b style="color: black;font-weight: 900;">Landing page, Facebook Ads ainsi qu’une vidéo animé explicative.</b> 
 							<video autoplay="autoplay"  style="width:100%;margin-top: 20px;" loop="" id="video-background" poster="file:///D:/Cache/anime_rge%202/1.webm" muted="muted">
   <source src="images/1.webm" type="video/mp4">
 </video>
 							
-							<p><p>La <b style="color: black;font-weight: 900;">page de renvoi (landing page)</b> servira uniquement Ã  convaincre les visiteurs par le service ainsi que la collecte des numÃ©ros de tÃ©lÃ©phones des clients intÃ©ressÃ©s. A la demande du fondateur, on a crÃ©Ã© une animation spÃ©ciale mis en arriÃ¨re-plan pour donner une idÃ©e gÃ©nÃ©rale de la problÃ©matique souvent rencontrÃ©e et pour la quelle le CRM a Ã©tÃ© dÃ©veloppÃ©. Lâ€™animation en question a Ã©tÃ© tracÃ© sous dâ€™abord et ensuite animÃ© sous After Effect.
+							<p><p>La <b style="color: black;font-weight: 900;">page de renvoi (landing page)</b> servira uniquement à convaincre les visiteurs par le service ainsi que la collecte des numéros de téléphones des clients intéressés. A la demande du fondateur, on a créé une animation spéciale mis en arrière-plan pour donner une idée générale de la problématique souvent rencontrée et pour la quelle le CRM a été développé. L’animation en question a été tracé sous d’abord et ensuite animé sous After Effect.
 							
 							<div class="row">
 							<div class="col-md-6" style="padding-right: 0; padding-left: 10px;"><img style="width:100%" src="images/pub1.jpg"></div>
@@ -266,8 +291,8 @@ font-size: 17px;
 							
 							</div>
 							
-							<p><p>Les <b style="color: black;font-weight: 900;">publicitÃ©s Facebook</b> sont un support de publicitÃ© incontournable pour tout entreprise visant le succÃ¨s. Tout en respectant les couleurs, le thÃ¨me et lâ€™esthÃ©tique gÃ©nÃ©rale du projet, on a crÃ©Ã© des publicitÃ©s ayant pour but dâ€™attirer les visiteurs curieux en Ã©voquant la problÃ©matique et la solution suggÃ©rÃ©e. Parmi les obligations de conception graphique, le texte publicitaires et le logo doivent Ãªtre trÃ¨s apparents. 
-							<p><p>Et finalement, concernant la <b style="color: black;font-weight: 900;">vidÃ©o explicative (Explainer)</b>, on a Ã©laborÃ© dâ€™abord plusieurs idÃ©es pour expliquer facilement lâ€™idÃ©e gÃ©nÃ©rale derriÃ¨re LeCRM.ma. Bien quâ€™une animation avec un personnage et une histoire Ã©taient prÃ©fÃ©rÃ©es, le choix du contexte de la vidÃ©o sâ€™est portÃ© sur une explication dÃ©taillÃ©e de la problÃ©matique, la solution ainsi que les fonctionnalitÃ©s de lâ€™application Ã  lâ€™aide de plusieurs animations que chacune dâ€™entre elle accompagnera par la suite lâ€™explication orale.   En gros, on a sacrifiÃ© une histoire pour une explication plus claire et plus prÃ©cise.
+							<p><p>Les <b style="color: black;font-weight: 900;">publicités Facebook</b> sont un support de publicité incontournable pour tout entreprise visant le succès. Tout en respectant les couleurs, le thème et l’esthétique générale du projet, on a créé des publicités ayant pour but d’attirer les visiteurs curieux en évoquant la problématique et la solution suggérée. Parmi les obligations de conception graphique, le texte publicitaires et le logo doivent être très apparents. 
+							<p><p>Et finalement, concernant la <b style="color: black;font-weight: 900;">vidéo explicative (Explainer)</b>, on a élaboré d’abord plusieurs idées pour expliquer facilement l’idée générale derrière LeCRM.ma. Bien qu’une animation avec un personnage et une histoire étaient préférées, le choix du contexte de la vidéo s’est porté sur une explication détaillée de la problématique, la solution ainsi que les fonctionnalités de l’application à l’aide de plusieurs animations que chacune d’entre elle accompagnera par la suite l’explication orale.   En gros, on a sacrifié une histoire pour une explication plus claire et plus précise.
 														
 							
 							<footer>
@@ -310,7 +335,7 @@ font-size: 17px;
 							
 							
 							<div class="row" style="font-family: 'Raleway', sans-serif;color: rgba(0, 0, 0, 0.48); font-size:14px; font-weight: 600;">
-							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">CLIENT</span>â€” â€” â€”</p></div>
+							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">CLIENT</span>— — —</p></div>
 							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">DATE</span>1 Oct 2016</p></div>
 							<div class="col-4"><p><span class="badge badge mr-2 p-1" style="background-color:rgba(0, 0, 0, 0.3);color:white;">SERVICE</span>Illustration, Poster</p></div>
 							</div>
@@ -319,18 +344,18 @@ font-size: 17px;
 							<section>
 							
 							<img src="images/l4fSCuh.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-								<p>Â« Kimbo Slice Â» Ã©tait boxeur bahamien et combattant en arts martiaux mixtes, notamment connu pour ses nombreux combats de rues filmÃ©s au dÃ©but des annÃ©es 2000 et postÃ© ultÃ©rieurement sur Youtube, devenant ainsi une sensation internet et mondiale.</p>
-								<p>Cette affiche est un hommage Ã  cette figure qui a inspirÃ© des milliers de personnes dans leurs vies quotidiennes Ã  ne jamais abandonner, lui qui est devenu connu et cÃ©lÃ¨bre quâ€™aprÃ¨s avoir Ã©tÃ© un simple bagarreur de rue.</p>
+								<p>« Kimbo Slice » était boxeur bahamien et combattant en arts martiaux mixtes, notamment connu pour ses nombreux combats de rues filmés au début des années 2000 et posté ultérieurement sur Youtube, devenant ainsi une sensation internet et mondiale.</p>
+								<p>Cette affiche est un hommage à cette figure qui a inspiré des milliers de personnes dans leurs vies quotidiennes à ne jamais abandonner, lui qui est devenu connu et célèbre qu’après avoir été un simple bagarreur de rue.</p>
 							<img src="images/7XeQdV4.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-								<p>Le premier prototype du poster a Ã©tÃ© inspirÃ© dâ€™une affiche dâ€™un film. Le but Ã©tait de crÃ©er une image avec un style Â« Grunge & Ink Â», avec un clin dâ€™Å“il Ã  la culture japonaise. Pour aboutir Ã  cette esthÃ©tique, le choix des couleurs Ã©tait primordial et sâ€™est finalement portÃ© sur du noir et blanc, avec une lÃ©gÃ¨re couche de rouge pour casser la dÃ©saturation ainsi quâ€™apporter de la vie et de la couleur Ã  la crÃ©ation.</p>
+								<p>Le premier prototype du poster a été inspiré d’une affiche d’un film. Le but était de créer une image avec un style « Grunge & Ink », avec un clin d’œil à la culture japonaise. Pour aboutir à cette esthétique, le choix des couleurs était primordial et s’est finalement porté sur du noir et blanc, avec une légère couche de rouge pour casser la désaturation ainsi qu’apporter de la vie et de la couleur à la création.</p>
 							<img src="images/hTh7CtG.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-								<p>La seconde version, qui Ã©tait considÃ©rÃ©e auparavant comme version finale, a Ã©tÃ© amÃ©liorÃ© cette fois ci Ã  lâ€™aide des feedbacks reÃ§us de plusieurs personnes expertes dans le domaine dâ€™infographie.
-								<p>Les points notables sont lâ€™amÃ©lioration des couleurs au lieu d'une apparence terne, ainsi que lâ€™ajout de quelques formes de brosse et de peinture pour accentuer lâ€™effet Â« Grunge & Ink Â».</p></p>
-								<br>La version finale, considÃ©rÃ©e un Â« Remaster Â», se concentrera dâ€™apporter un sens de fraicheur et de nouveautÃ© sans changer lâ€™esthÃ©tique globale du poster. </br>
+								<p>La seconde version, qui était considérée auparavant comme version finale, a été amélioré cette fois ci à l’aide des feedbacks reçus de plusieurs personnes expertes dans le domaine d’infographie.
+								<p>Les points notables sont l’amélioration des couleurs au lieu d'une apparence terne, ainsi que l’ajout de quelques formes de brosse et de peinture pour accentuer l’effet « Grunge & Ink ».</p></p>
+								<br>La version finale, considérée un « Remaster », se concentrera d’apporter un sens de fraicheur et de nouveauté sans changer l’esthétique globale du poster. </br>
 								<img src="images/5W9BSKG.jpg" style="margin-bottom: 20px;margin-top: 20px;">
-								<p>Le texte a Ã©tÃ© enlevÃ©, et le Kanji japonais a Ã©tÃ© retravaillÃ© pour se fondre avec le reste des Ã©lÃ©ments. Le fond, quant Ã  lui, a Ã©tÃ© crÃ©Ã© dans l'intention de mettre en avant le personnage. Les deux signatures ont eux aussi Ã©tÃ© retravaillÃ© pour apporter un maximum de cohÃ©rence et dâ€™harmonie.</p>						
-								<br>Ci-dessous les trois versions cote Ã  cote.
-								<img src="images/tRrWpkD.jpg" style="margin-bottom: 20px;margin-top: 20px;">						
+								<p>Le texte a été enlevé, et le Kanji japonais a été retravaillé pour se fondre avec le reste des éléments. Le fond, quant à lui, a été créé dans l'intention de mettre en avant le personnage. Les deux signatures ont eux aussi été retravaillé pour apporter un maximum de cohérence et d’harmonie.</p>						
+								<br>Ci-dessous les trois versions cote à cote.
+								<img src="images/tRrWpkD.jpg" style="margin-bottom: 20px;margin-top: 20px;">								
 							
 							</section>
 							<footer>
@@ -356,13 +381,13 @@ font-size: 17px;
 									<div class="col-md-6 px-md-5" style="padding-left:30px;">
 									<div class="icon solid fa-pen-nib" style="font-size: 50px;position:absolute; top: 20%; left:10px; color: #f2da75;"></div>
 									<div style="padding-left: 60px;"><h3 class="" style="color: #f2da75;">Corporate branding</h3>
-									<p style="text-align:justify;">Que ce soit un <b>logo</b>, une <b>affiche publicitaire</b> ou bien n'importe quelle autre <b>crÃ©ation graphique</b>, notre objectif est de donner une identitÃ© visuelle distinguable et unique Ã  votre projet.</p>
+									<p style="text-align:justify;">Que ce soit un <b>logo</b>, une <b>affiche publicitaire</b> ou bien n'importe quelle autre <b>création graphique</b>, notre objectif est de donner une identité visuelle distinguable et unique à votre projet.</p>
 									</div></div>
 									
 									<div class="col-md-6 px-md-5" style="padding-left:30px;">
 									<div class="icon solid fa-photo-video" style="font-size: 50px;position:absolute; top: 20%; left:10px; color: #f2da75;"></div>
 									<div style="padding-left: 60px;"><h3 class="" style="color: #f2da75;">Motion design</h3>
-									<p style="text-align:justify;">Vos services doivent Ãªtre prÃ©sentÃ©s de toutes les maniÃ¨res optimales comme des <b>vidÃ©os explicatives</b> ou des <b>animations</b>. Nous vous aiderons Ã  vous prÃ©senter sous cette mÃ©thode.</p>
+									<p style="text-align:justify;">Vos services doivent être présentés de toutes les manières optimales comme des <b>vidéos explicatives</b> ou des <b>animations</b>. Nous vous aiderons à vous présenter sous cette méthode.</p>
 									</div></div>
 									</div>
 									
@@ -371,14 +396,14 @@ font-size: 17px;
 									
 									<div class="col-md-6 px-md-5" style="padding-left:30px;">
 									<div class="icon solid fas fa-code" style="font-size: 50px;position:absolute; top: 20%; left:10px; color: #f2da75;"></div>
-									<div style="padding-left: 60px;"><h3 class="" style="color: #f2da75;">DÃ©veloppement</h3>
-									<p style="text-align:justify;">Votre entreprise devrait certainement avoir besoin d'un <b>site web</b> ou d'une <b>application</b> pour mieux gÃ©rer et prÃ©senter ses services. Laissez-nous vous aider Ã  dÃ©velopper la solution.</p>
+									<div style="padding-left: 60px;"><h3 class="" style="color: #f2da75;">Développement</h3>
+									<p style="text-align:justify;">Votre entreprise devrait certainement avoir besoin d'un <b>site web</b> ou d'une <b>application</b> pour mieux gérer et présenter ses services. Laissez-nous vous aider à développer la solution.</p>
 									</div></div>
 									
 									<div class="col-md-6 px-md-5" style="padding-left:30px;">
 									<div class="icon solid fa-bullhorn" style="font-size: 50px;position:absolute; top: 20%; left:10px; color: #f2da75;"></div>
 									<div style="padding-left: 60px;"><h3 class="" style="color: #f2da75;">Marketing digital</h3>
-									<p style="text-align:justify;">Pour atteindre vos clients, il existe beaucoup de supports de communication Ã  savoir les <b>publicitÃ©s (Facebook Ads)</b> et les <b>emails</b>. Nous vous accompagnerons Ã  toucher le plus de clients potentiels possible grÃ¢ce Ã  notre travail.</p>
+									<p style="text-align:justify;">Pour atteindre vos clients, il existe beaucoup de supports de communication à savoir les <b>publicités (Facebook Ads)</b> et les <b>emails</b>. Nous vous accompagnerons à toucher le plus de clients potentiels possible grâce à notre travail.</p>
 									</div></div>
 									
 
@@ -415,19 +440,19 @@ font-size: 17px;
 							<section class="panel">
 								<div class="intro spotlight medium right" style="background-color: #911b26;">
 									<h2 class="major">Projets</h2>
-									<p>Jetez un coup d'oeil sur les quelques crÃ©ations et projets qui ont sÃ©duit nos clients.</p>
+									<p>Jetez un coup d'oeil sur les quelques créations et projets qui ont séduit nos clients.</p>
 								</div>
 								
 								<div class="gallery">
 									<div class="group span-3">
 									
 									
-										<div class="image filtered span-3" data-position="bottom"  data-toggle="modal" data-target="#apoxer" style="cursor: pointer;"><img src="https://i.imgur.com/jrrVln5.jpg" alt="" /></div>
+										<div class="image filtered span-3" data-position="bottom"  data-toggle="modal" data-target="#apoxer" style="cursor: pointer;"><img src="images/jrrVln5.jpg" alt="" /></div>
 										<div class="image filtered span-3" data-position="bottom"  data-toggle="modal" data-target="#crm" style="cursor: pointer;"><video autoplay="autoplay"  loop="" id="video-background" poster="" muted="muted"><source src="images/png.webm" type="video/mp4">
 </video></div>
 
 										</div>
-									<div class="image filtered span-2-5" data-position="bottom"  data-toggle="modal" data-target="#kimbo" style="cursor: pointer;"><img src="https://i.imgur.com/l4fSCuh.jpg" alt="" /></div>
+									<div class="image filtered span-2-5" data-position="bottom"  data-toggle="modal" data-target="#kimbo" style="cursor: pointer;"><img src="images/l4fSCuh.jpg" alt="" /></div>
 										
 									<!--<a href="https://i.imgur.com/l4fSCuh.jpg" class="image filtered span-2-5" data-position="top"><img src="https://i.imgur.com/l4fSCuh.jpg" alt="" /></a>
 									--><div class="group span-4-5">
@@ -471,14 +496,14 @@ font-size: 17px;
 							<section class="panel" style="background-color: #941f2a;">
 								<div class="intro" >
 									<h2 class="major">Contact</h2>
-									<p>Vous avez un avis ou bien vous Ãªtes interessÃ© par une collaboration? N'hesitez pas Ã  nous contacter.</p>
+									<p>Vous avez un avis ou bien vous êtes interessé par une collaboration? N'hesitez pas à nous contacter.</p>
 								</div>
 								<div class="inner columns divided">
 									<div class="span-3-25">
 										<form method="post" action="#">
 											<div class="fields">
 												<div class="field half">
-													<label for="name">Nom & PrÃ©nom</label>
+													<label for="name">Nom & Prénom</label>
 													<input type="text" name="namxe" id="name" />
 												</div>
 												<div class="field half">
@@ -513,8 +538,8 @@ font-size: 17px;
 								<section class="panel">
 								<div class="intro spotlight medium right" style="background-color: #c02432;">
 									<h2 class="major" style="font-family:'League Spartan';">arlibera.ma</h2>
-									<p>Copyright Â© 2021 arlibera.
-										Tous droits rÃ©servÃ©s.</p>
+									<p>Copyright © 2021 arlibera.
+										Tous droits réservés.</p>
 								</div>
 								
 							</section>
@@ -802,8 +827,31 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script>
-	</script>
+
+ <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+	$('.scroll-animation').delay(9000).fadeIn(400);
+});
+
+$(window).on("load",function(){
+			$(".scroll-animation").delay(2500).fadeIn("5000")
+			});
+			
+			<script>jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('.scroll-animation').fadeOut('slow', function () {
+            });
+        },2000); // set the time here
+    });  
+});
+</script>
+
+
 </body>
 </html>
 
