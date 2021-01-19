@@ -306,6 +306,8 @@
 							};
 
 					};
+					
+
 
 				// Wheel event.
 					$body.on('wheel', function(event) {
