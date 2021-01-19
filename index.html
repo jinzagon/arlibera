@@ -868,12 +868,5 @@ setTimeout(function(){
 
 <script>ScrollReveal().reveal('.content.span-7', { delay: 500, duration: 2000,easing: 'cubic-bezier(0.5, 0, 0, 1)',distance: '-50px' });</script>
 
-<script>
-$("#wrapper").on("mousewheel", function(e) {
-  e.preventDefault();
-  var delta = 40*(parseInt(e.originalEvent.deltaY)/33);
-  var scto = $(this).scrollLeft() - delta;
-  $(this).scrollLeft(scto);
-});</script>
 </body>
 </html>
